@@ -117,3 +117,26 @@ Padding com dois parâmetros:
 
 Box-shadow com quataro parâmetros:
     box-shadow: (offset horizontal) (offset vertical) (blur) (cor)
+
+Importando fontes:
+    @font-face {
+        font-family: 'nome que você quiser';
+        src: url('caminho para a fonte');
+    }
+
+    body {
+        ...
+        font-family: 'Outras fontes', 'nome que você quiser';
+        ...
+    }
+
+Para usar as fontes, é necessário usar os códigos da própria fonte.
+No caso do cabeçalho, o menu de hambúrguer tem o código \e904, e o menu de 
+notificações tem o código \e906.
+
+O atributo "content" na propriedade CSS "i::before" insere um texto/conteúdo
+antes da tag. Como no cabeçalho as tags i serão vazias, somente o ícone será
+mostrado.
+
+Os botões precisam de um recurso de acessibilidade para identificação. Assim,
+os botões precisam da propriedade aria-label.
