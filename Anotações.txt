@@ -69,3 +69,23 @@ Resumo do Emmet:
     *  = repete a tag N vezes.
     $  = variável contadora
     #  = fornece atributo id para a tag.
+
+Para distribuir conteúdo, precisamos saber o que será distribuído e onde.
+No exemplo, temos 3 elementos que serão distribuídos no header.
+
+O "onde" é que vai receber a propriedade CSS display: flex. 
+
+Definida essa propriedade, os 3 elementos-filho podem ser alinhados remanejados
+com as propriedades justify-content e align-items.
+
+Padrão BEM (Bloco, Elemento e Modificador). 
+Blocos tem independência no seu nome e são pais de Elementos.
+Elementos são sempre precedidos de double-underscores (__).
+Modificadores são sempre precedidos de double-dashes (--) e definem o estado 
+de blocos ou elementos.
+
+Padrão de nomenclatura: bloco__elemento--modificador
+
+
+Conteúdo sobre flexbox no CSS: 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
