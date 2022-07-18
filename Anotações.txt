@@ -1,0 +1,71 @@
+Repositório de onde vieram os assets do projeto:
+https://github.com/ikyrie/flex-e-grid
+
+Layout no Figma:
+https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358
+
+reset.css: arquivo usado para limpar a formatação padrão dos navegadores. 
+
+Emmet: recurso do Visual Studio para autocompletar código HTML etc.
+Recursos do Visual Studio/Emmet para tags:
+    Operador ponto: Insere a tag e inclui a classe nessa tag:
+        tag.classe1.classe2 + Tab
+        <tag class="classe1 classe2"></tag>
+
+        .classe + Tab
+        <div class="classe"></div>
+    
+    Operador maior: Insere a tag e dentro dela a subtag:
+        tag>subtag + Tab
+        <tag>
+            <subtag></subtag>
+        </tag>
+
+    Operador colchetes: Insere a tag e os atributos com os valores:
+        tag[atributo1=valor1 atributo2=valor2]  + Tab
+        <tag atributo1="valor1" atributo2="valor2"></tag>
+
+    Operador chaves: Insere a tag e o conteúdo dela.
+        tag{Conteúdo} + Tab
+        <tag>Conteúdo</tag>
+
+    Operador mais: Insere mais de uma tag na mesma declaração:
+        tag1+tag2 + Tab
+        <tag1></tag1>
+        <tag2></tag2>
+
+    Operador parênteses: Agrupa tags para ordenar a hierarquia de geração do HTML:
+        (.classe)+tag2 + Tab
+        <div class="classe"></div>
+        <tag2></tag2>
+
+    Operador asterisco: Repete a tag n vezes:
+        tag*3
+        <tag></tag>
+        <tag></tag>
+        <tag></tag>
+
+    Operador cifrão: Serve como variável contadora usada na impressão do HTML.
+        tag{Conteúdo $}*3
+        <tag>Conteúdo 1</tag>
+        <tag>Conteúdo 2</tag>
+        <tag>Conteúdo 3</tag>
+
+        tag[propriedade="item-$"]*3
+        <tag propriedade="item-1"></tag>
+        <tag propriedade="item-2"></tag>
+        <tag propriedade="item-3"></tag>
+
+    Operador cerquilha: Inclui a propriedade ID na tag.
+
+Cheat Sheet do Emmet: https://docs.emmet.io/cheat-sheet/
+Resumo do Emmet:
+    () = agrupa tags
+    [] = insere propriedades
+    {} = insere conteúdo na tag
+    .  = insere classe
+    >  = insere tag aninhada
+    +  = insere tag no mesmo nível hierárquico
+    *  = repete a tag N vezes.
+    $  = variável contadora
+    #  = fornece atributo id para a tag.
