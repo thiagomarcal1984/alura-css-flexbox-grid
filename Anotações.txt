@@ -158,3 +158,10 @@ a depender da flex-direction!!! O justify-content é igual a flex-direction.
 Nota 2: justify-content e align-items se aplicam ao flex container; 
 justify-self e align-self se aplica aos items dentro do flex container.
 *******************************************************************************
+
+Jogo para brincar com o flex containers: https://flexboxfroggy.com/
+Outros jogos com CSS: https://codepip.com/games/
+
+
+É possível que elementos de um flex container sejam convertidos em flex
+containers também. Isso permite os alinhamentos dos filhos dos itens.
