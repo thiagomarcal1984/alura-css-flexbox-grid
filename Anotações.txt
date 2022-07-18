@@ -89,3 +89,31 @@ Padrão de nomenclatura: bloco__elemento--modificador
 
 Conteúdo sobre flexbox no CSS: 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+Alinhamentos horizontais dos elementos no bloco flexbox (justify-content):
+    flex-start:     os elementos se alinham a partir do início do bloco.
+    flex-end:       os elementos se alinham a partir do fim do bloco.
+    center:         os elementos se alinham a partir do centro do bloco.
+    space-around:   acrescentam-se espaços fixos nos dois lados dos elementos.
+                    Elementos centrais recebem o dobro de espaçamento.
+    space-evenly:   acrescentam-se espaços iguais entre os elementos e o canto.
+                    Elementos centrais recebem o mesmo espaço que os laterais.
+    space-between:  os elementos dos cantos ficam nos cantos, e o espaço entre
+                    eles é igualado (evenly).
+
+
+    Lembre-se que a propriedade justify-content só utiliza o espaço dentro do
+    flexbox. Se não houver espaço no flexbox, esta propriedade não funcionará.
+
+Alinhamentos verticais dos elementos do flexbox (align-items):
+    flex-start:     os elementos se alinham a partir do topo do bloco.
+    flex-end:       os elementos se alinham a partir da base do bloco.
+    center:         os elementos se alinham a partir do centro do bloco.
+    stretch:        os elementos se esticam em todo o flexbox. É o padrão.
+
+Padding com dois parâmetros: 
+    padding: (valores horizontais) (valores verticais);
+
+Box-shadow com quataro parâmetros:
+    box-shadow: (offset horizontal) (offset vertical) (blur) (cor)
