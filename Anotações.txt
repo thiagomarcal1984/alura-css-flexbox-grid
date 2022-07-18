@@ -140,3 +140,21 @@ mostrado.
 
 Os botões precisam de um recurso de acessibilidade para identificação. Assim,
 os botões precisam da propriedade aria-label.
+
+Podemos definir a quebra de linha dentro de um container flex, com a 
+propriedade flex-wrap:
+    flex-wrap: wrap;
+    flex-wrap: nowrap; (Padrão)
+
+Também podemos definir o sentido do fluxo do conteúdo de um flex container, com
+a propriedade flex-direction:
+    flex-direction: column; // Flui na vertical.
+    flex-direction: row;  // Flui na horizontal (Padrão).
+
+*******************************************************************************
+Nota 1: justify-content e align-items inverte a função horizontal/vertical, 
+a depender da flex-direction!!! O justify-content é igual a flex-direction.
+
+Nota 2: justify-content e align-items se aplicam ao flex container; 
+justify-self e align-self se aplica aos items dentro do flex container.
+*******************************************************************************
