@@ -39,6 +39,14 @@ body {
     background-color: #15191C;
     width: 75vw; /* vw = viewport da largura.*/
     height: 100vh; /* vh = viewport da altura.*/
+    position: absolute;
+    left: -100vw; /* Esconde o menu para a esquerda. */
+    transition: .25s; /* Animação ao exibir/esconder. */
+}
+
+.menu-lateral--ativo {
+    left: 0;
+    transition: .25s; /* Animação ao exibir/esconder. */
 }
 
 .menu-lateral__logo {
