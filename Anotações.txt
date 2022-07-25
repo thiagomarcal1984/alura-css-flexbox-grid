@@ -171,6 +171,13 @@ apenas elementos na horizontal ou na vertical. Cards com elementos verticais
 que contenham outros elementos na horizontal começam a poluir o código. Para 
 resolver essa questão, usamos grids.
 
+Duas limitações do flexbox:
+    1)  Ao contrário dos grids, não podemos trabalhar com dois eixos ao mesmo
+        tempo com flexbox;
+    2)  Não é possível criar espaços precisos com o flexbox, já que ele 
+        redistribui espaços restantes. Ele não estabelece dimensões-padrão
+        como os grids.
+
 A propriedade justify-items nos grids acaba funcionando como alinhamento 
 horizontal dos itens (flex-start, flex-end ou center). O valor space-between
 funciona como flex-start e os demais space-* como center.
