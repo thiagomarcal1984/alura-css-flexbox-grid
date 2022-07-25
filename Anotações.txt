@@ -165,3 +165,18 @@ Outros jogos com CSS: https://codepip.com/games/
 
 É possível que elementos de um flex container sejam convertidos em flex
 containers também. Isso permite os alinhamentos dos filhos dos itens.
+
+Containers flex tem a seguinte limitação: funcionam bem somente se houver 
+apenas elementos na horizontal ou na vertical. Cards com elementos verticais
+que contenham outros elementos na horizontal começam a poluir o código. Para 
+resolver essa questão, usamos grids.
+
+A propriedade justify-items nos grids acaba funcionando como alinhamento 
+horizontal dos itens (flex-start, flex-end ou center). O valor space-between
+funciona como flex-start e os demais space-* como center.
+
+Atenção à nova unidade de medida usada aqui: a fração (fr). Por exemplo:
+se você quiser um grid dividido em 3 colunas iguais, use:
+    grid-template-columns: 1fr 1fr 1fr;
+
+Desta forma, o CSS não usa números imprecisos (como 33%) para as proporções.
