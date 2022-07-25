@@ -187,3 +187,7 @@ se você quiser um grid dividido em 3 colunas iguais, use:
     grid-template-columns: 1fr 1fr 1fr;
 
 Desta forma, o CSS não usa números imprecisos (como 33%) para as proporções.
+
+Itens dentro do grid podem ocupar mais de uma coluna por meio da seguinte 
+propriedade: 
+    grid-column: span 2;
