@@ -202,3 +202,6 @@ facilitar a divisão e a compreensão de como vai ser o grid CSS.
 
 Use media queries para adaptar o CSS ao tamanho do dispositivo. Para cada media
 query, defina o formato CSS de cada elemento (ou mesmo se ele será exibido).
+
+Técnica de mobile first: escreva o CSS do mobile, depois escreva media queries
+com classes próprias para o desktop.
