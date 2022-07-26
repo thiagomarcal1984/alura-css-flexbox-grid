@@ -196,3 +196,9 @@ Para aumentar o espaçamento dentro do grid, use a propriedade gap. Ela só serv
 para espaçamento interno (igual a space-between no justify-content do flexbox).
 
 Há variações específicas de gap para colunas e linhas: row-gap e column-gap.
+
+Rascunhe o layout do site no Paint, desenhando os grids e os aninhamentos, para
+facilitar a divisão e a compreensão de como vai ser o grid CSS.
+
+Use media queries para adaptar o CSS ao tamanho do dispositivo. Para cada media
+query, defina o formato CSS de cada elemento (ou mesmo se ele será exibido).
