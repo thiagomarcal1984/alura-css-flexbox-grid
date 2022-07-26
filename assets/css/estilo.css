@@ -121,7 +121,11 @@ body {
 .cartao__conteudo {
     padding: 16px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr; 
+        /* Auto serve para ajustar a coluna do grid ao maior conteúdo nela. */
+    /* gap: 8px; O mesmo que row-gap + column-gap.*/
+    row-gap: 8px;
+    column-gap: 8px;
 }
 
 .cartao__destaque {

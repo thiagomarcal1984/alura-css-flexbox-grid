@@ -191,3 +191,8 @@ Desta forma, o CSS não usa números imprecisos (como 33%) para as proporções.
 Itens dentro do grid podem ocupar mais de uma coluna por meio da seguinte 
 propriedade: 
     grid-column: span 2;
+
+Para aumentar o espaçamento dentro do grid, use a propriedade gap. Ela só serve
+para espaçamento interno (igual a space-between no justify-content do flexbox).
+
+Há variações específicas de gap para colunas e linhas: row-gap e column-gap.
