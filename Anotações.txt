@@ -226,3 +226,5 @@ E para cada elemento deve conter o nome de área:
     .direito {
         grid-area: direito;
     }
+
+**Parênteses: houve aplicação errada do estilo cartao--destaque no HTML. 
