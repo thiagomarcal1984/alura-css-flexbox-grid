@@ -228,3 +228,6 @@ E para cada elemento deve conter o nome de área:
     }
 
 **Parênteses: houve aplicação errada do estilo cartao--destaque no HTML. 
+
+Cuidado ao aplicar uma propriedade grid-area: se na versão mobile não tiver o
+template de areas, tudo que for nomeado na versão desktop pode ficar escondido.
