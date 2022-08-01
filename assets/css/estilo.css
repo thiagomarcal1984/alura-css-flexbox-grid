@@ -180,6 +180,7 @@ body {
 .titulo-pagina {
     font-size: 1.5rem;
     font-weight: 700;
+    grid-area: titulo-pagina;
 }
 
 .titulo-secao {
@@ -194,6 +195,11 @@ body {
         column-gap: 32px;
         padding: 16px 60px;
         grid-column: 2;
+        grid-template-areas: "titulo-pagina titulo-pagina titulo-pagina" "destaque destaque recentes"; 
+        /* 
+        As áreas chamadss titulo-pagina ocupam esta área.
+        Cada par de aspas duplas correspondente a uma linha.
+        */
     }
 }
 
@@ -206,6 +212,7 @@ body {
 
 .cartao--destaque {
     margin-bottom: 16px;
+    grid-area: destaque;
 }
 
 .cartao__conteudo {
@@ -278,6 +285,7 @@ body {
 
 .cartao--recentes {
     display: none;
+    grid-area: recentes;
 }
 
 @media screen and (min-width: 900px) {

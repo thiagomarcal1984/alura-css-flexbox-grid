@@ -205,3 +205,24 @@ query, defina o formato CSS de cada elemento (ou mesmo se ele será exibido).
 
 Técnica de mobile first: escreva o CSS do mobile, depois escreva media queries
 com classes próprias para o desktop.
+
+Grid-areas: forma de nomear as áreas de um grid. Ele permite facilidade na
+manutenção do código, pois permite o reposicionamento dos elementos do grid
+apenas por meio da alteração do grid-template area.
+
+O container precisa do estilo grid-container-areas e dos nomes das áreas que
+ocuparão o espaço:
+    grid-template-area: "dois-espacos dois-espacos" "esquerdo direito";
+    /* Cada repetição das aspas duplas é uma nova linha de áreas no grid.*/
+
+E para cada elemento deve conter o nome de área:
+    .dois-espacos {
+        grid-area: dois-espacos;
+        /* Repare que, ao aplicar o nome, ele não precisa de aspas duplas. */
+    }
+    .esquerdo {
+        grid-area: esquerdo;
+    }
+    .direito {
+        grid-area: direito;
+    }
